@@ -7,7 +7,19 @@
 }
 
 main {
-
+    display: flex;
         min-height: 100vh;
         background: linear-gradient(to right top,#65dfc9,#6cdbeb);
+        align-items: center;
+        justify-content: center;
+
+}
+.glass{
+
+ background: white;
+ width: 62%;  
+ min-height: 80vh; 
+ background: linear-gradient(to right bottom,rgba(255,255,255,0.7),
+ rgba(255,255,255,0.3)); /* 0. 3 oppacity */ 
+ border-radius:20px ;
 }
