@@ -22,4 +22,25 @@ main {
  background: linear-gradient(to right bottom,rgba(255,255,255,0.7),
  rgba(255,255,255,0.3)); /* 0. 3 oppacity */ 
  border-radius:20px ;
+ z-index: 3; /* Position pour que le cirlce soit derrière le glass*/
+backdrop-filter:blur(100rem); 
+}
+.circle1, .circle2{
+    background: white;
+    background: linear-gradient(to right bottom,rgba(255,255,255,0.7),
+ rgba(255,255,255,0.3)); /* 0. 3 oppacity */ 
+ height: 200px;
+ width: 200px;
+ position: absolute;
+
+}
+.circle1{
+    top: 5%;
+    right: 15%
+}
+.circle2{
+bottom: 5%;
+left: 15%;
+/*background-color: red; test zindex if is working */
+
 }
